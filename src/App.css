@@ -123,3 +123,9 @@ p{
 .Input button{
   margin-top: 30px;
 }
+
+a, Link{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}

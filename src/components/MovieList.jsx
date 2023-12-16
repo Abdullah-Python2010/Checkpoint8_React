@@ -7,7 +7,7 @@ export const Movies = () => {
             
             {
                 Data.map(
-                    (info) => {
+                    (info, index) => {
                         return(
                             <div className='movie'>
                                 <MovieCard poster={info.image} name={info.Title} desc={info.Description} rate={Number(info.Rating)}  />
